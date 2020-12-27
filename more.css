@@ -1,0 +1,92 @@
+/*.transition-example{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: all 1s;
+}
+
+.transition-example:hover{
+    width: 200px;
+    height: 200px;
+}*/
+
+/* transform: skew(twist)/ scale(badachota)/ (rotate)(just 1 parameter)/ (translate-move to coordinates)*/
+
+
+/*@keyframes first{
+    0% {transform: translate(0px,0px);}
+    20% {transform: translate(100px,100px);}
+    40% {transform: translate(200px,-100px);}
+    60% {transform: translate(300px,100px);}
+    80% {transform: translate(400px, -100px);}
+    100% {transform: translate(500px, 100px);}
+ }
+.transition-example{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    text-align: center;
+    animation: first;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.transition-example:hover{
+    animation-play-state: paused;
+}*/
+
+/*.box1{
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.box2{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.box3{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+/* justify-content: center/space-between/space-around;*/
+
+.primary-button{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: #ff219f;
+    color:white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px lightgrey;
+    outline: 0;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.primary-button:hover{
+    background-color: crimson;
+}
+
+.primary-button:active{
+    transform: scale(1.1,1.1);
+}

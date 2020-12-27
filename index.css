@@ -1,0 +1,21 @@
+h1{
+    background-color: #944e6c;
+    color:white;
+    border: 10px dashed red;
+    border-radius: 25px;
+}
+p{
+    color:white;
+    font-size:15px;
+}
+body{
+    background-color: #83a95c;
+}
+img{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #944e6c;
+    border-bottom: 10px solid red;
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+}
